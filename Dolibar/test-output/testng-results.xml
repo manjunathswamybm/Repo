@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[pass]]>
+    </line>
+    <line>
+      <![CDATA[fail]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="84099" started-at="2019-03-05T07:12:23Z" finished-at="2019-03-05T07:13:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="84099" started-at="2019-03-05T07:12:23Z" finished-at="2019-03-05T07:13:47Z">
+      <class name="script.invalidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.invalidLogin@29774679]" name="openApplication" is-config="true" duration-ms="68500" started-at="2019-03-05T07:12:23Z" finished-at="2019-03-05T07:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:script.invalidLogin@29774679]" name="testInvalidLogin" duration-ms="12873" started-at="2019-03-05T07:13:32Z" finished-at="2019-03-05T07:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.invalidLogin@29774679]" name="closeApplication" is-config="true" duration-ms="2638" started-at="2019-03-05T07:13:45Z" finished-at="2019-03-05T07:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=invalidLogin.testInvalidLogin()[pri:2, instance:script.invalidLogin@29774679] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:script.invalidLogin@29774679]" name="writeReport" is-config="true" duration-ms="2354" started-at="2019-03-05T07:13:49Z" finished-at="2019-03-05T07:13:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[pass]]>
+            </line>
+            <line>
+              <![CDATA[fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- script.invalidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
